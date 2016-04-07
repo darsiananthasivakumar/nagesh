@@ -1,0 +1,21 @@
+<html>
+<script>
+function getres(){
+try{
+a=eval(f1.t1.value)
+b=eval(f1.t2.value)
+alert(a/b)
+}
+catch(exception e){}
+}
+</script>
+<body>
+<form name="f1">
+First value:
+<input type="text" name="t1"><br>
+Second value:
+<input type="text" name="t2"><br>
+<input type="button" value="show" onclick="getres()">
+</form>
+</body>
+</html>
